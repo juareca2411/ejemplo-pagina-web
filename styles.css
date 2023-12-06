@@ -1,0 +1,51 @@
+body, html {
+    background-color: yellow;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.contenedor-principal{
+    display: flex;
+    flex-direction: row;
+}
+
+.bloque-personalizar {
+    display: flex;
+    background-color: red;
+    color: white;
+    width: 20%;
+    height: 100vh;
+    align-items: flex-start;
+    padding: 20px; /*Opcional, agrega espacio alrededor del contenido*/
+    gap: 1rem;
+}
+
+.bloque-hamburguesas{
+    display: flex;
+    padding: 20px;
+    background-color: green;
+    width: 100%;
+    height: 15%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bloque-hamburguesas button{
+    height: 30px;
+}
+
+header .material-symbols-outlined {
+    font-size: 45px;
+}
+
+h3{
+    margin: 0;
+}
